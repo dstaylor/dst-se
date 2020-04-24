@@ -1,5 +1,5 @@
 body {
-    background: #ccffe6;
+    background: #e6ffff;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
@@ -9,7 +9,7 @@ body {
     left: 0;
     top: 0;
     width: 100%;
-    background-color: #f3ffd3;
+    background-color: #e6ffff;
     text-align: center;
 }
 
@@ -18,7 +18,7 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #f3ffd3;
+    background-color: #e6ffff;
     text-align: center;
 }
 
