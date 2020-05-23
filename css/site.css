@@ -3,6 +3,10 @@ body {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
+a.noUnderline {
+    text-decoration: none;
+}
+
 /* header and footer */
 .header {
     position: fixed;
