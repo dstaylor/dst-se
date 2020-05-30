@@ -1,29 +1,95 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>DSTSE</title>
-    <link rel="stylesheet" href="../css/site.css">
+    <title>DSTSE - More stuff</title>
+    
+	<link rel="stylesheet" href="../css/site.css">
+	
+	<script src="../javascript/site.js" > </script >
+    <script type="text/javascript" >
+    if ('addEventListener' in window) {
+        window .addEventListener('resize', function () {
+                sameHeights();
+            });
+        window .addEventListener('load', function () {
+                sameHeights();
+            });
+    }
+    </script>
 </head>
   <body>    
 	<div class="header">
         	<h3>Dave and Stephanie Taylor - software engineers</h3>
     	</div>	
 	  
-	<div class="content">
-		<div class="wrapper">
-			<p class="center">More stuff...</p>
-			<p> </p>
-                	<ul>
-                    		<!-- <li><a href="https://www.arcgis.com/home/webmap/viewer.html?webmap=98c046ecb01b4398a2371f98b56e939e&extent=-117.1342,33.071,-117.0101,33.1392" class="noUnderline">Some favorite Escondido restaurants</a></li>
-				<li><a href="https://arcg.is/149nSy" class="noUnderline">Some favorite Escondido restaurants</a></li>-->
-				<li><a href="maps/esco_restaurants.html" class="noUnderline">Some favorite Escondido restaurants</a></li>
-				
-			</ul>			
-		</div>
-	</div>
+	
+    <div class="content">
+        <p>&nbsp</p>
+        <div class="wrapper">
+
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <div class="container shaded"><h3>Projects</h3></div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="container shaded"><h3>Notes</h3></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sameHeights">
+                <div class="row">
+                    <div class="column">
+                        <div class="card" data-key="sameHeights">
+                            <div class="container">
+                                <img src="../images/map.png" alt="restaurants" style="width:60%">
+                                <p><a href="maps/esco_restaurants.html" target="_blank" button class="button button2">restaurants</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card" data-key="sameHeights">
+                            <div class="container">
+                                <ul>
+                                    <li>a map showing some of our favorite local restaurants</li>
+                                    <li>this map was built using tools from ESRI ArcGIS</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <div class="card" data-key="sameHeights">       
+                            <div class="container">
+                                <img src="../images/carousel.png" alt="photos" style="width:60%">
+                                <p><a href="photos/carousel.html" target="_blank" button class="button button2">photos</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card" data-key="sameHeights">
+                            <div class="container">
+                                <ul>
+                                    <li>some photos from the Sierra high-country</li>
+                                    <li>includes Yosemite and June Lake</li>
+                                    <li>the slide show uses Bootstrap's carousel</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 	
 	<div class="footer">
         	<p>Copyright &copy; 2020 DSTSE</p>
     	</div>	
   </body>
 </html>
+
